@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'GFS Neohellenic', sans-serif;
+  color: #f0fed7;
+  background-color: #008080;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.8rem;
+}
+
+a:hover {
+  border-bottom: 3px double #f0fed7;
+}
+
+header, section {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  border: 5px double #f0fed7;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 99%;
+  text-align: center;
+}
+
+footer p, footer a {
+  font-size: 1.1rem;
+}
+
+.img-recipe, .img-home {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-list {
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  list-style: none;
+}
